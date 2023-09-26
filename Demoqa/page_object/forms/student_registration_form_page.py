@@ -38,6 +38,7 @@ class RegistrationPage(BasePage):
         browser.all("#city div").element_by(have.exact_text(text)).click()
         return self
 
+    @allure.step('Ввести в поле "Date of Birth" значение {date}')
     def fill_date_of_birth(self, date):
         year = date.year
         month = date.month - 1
