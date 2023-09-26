@@ -1,6 +1,6 @@
 import allure
 from Demoqa.page_object.Elements.text_box_page import TextBoxPage
-from Demoqa.page_object.forms.student_registration_form_page import RegistrationPage
+from Demoqa.page_object.Forms.student_registration_form_page import RegistrationPage
 
 
 @allure.step('Test Text Box')
