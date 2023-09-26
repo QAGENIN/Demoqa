@@ -6,7 +6,6 @@ from selene.support.conditions import have
 from Demoqa.user_data.users import test_user
 from Demoqa.base_page import BasePage
 from Demoqa.locators.Elements_locators import StudentRegistrationForm as locator
-from Demoqa.user_data.users import User
 
 
 class RegistrationPage(BasePage):
