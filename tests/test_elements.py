@@ -16,4 +16,4 @@ def test_practice_form():
     registration_page = RegistrationPage()
     registration_page.open('automation-practice-form')
     registration_page.filled_all_fields()
-    registration_page.should_have_registred()
+    registration_page.check_all_fields()
