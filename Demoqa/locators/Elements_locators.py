@@ -24,3 +24,17 @@ class CheckBoxPageLocators:
     OUTPUT_RESULT = (By.XPATH, '//span[@class="text-success"]')
 
     TITLE_LIST_TEXT = './/ancestor::span[@class="rct-text"]'
+
+
+class StudentRegistrationForm:
+    CREATED_USER_DATA = browser.element('.table').all('td')
+    INPUT_FIRST_NAME = '#firstName'
+    INPUT_LAST_NAME = '#lastName'
+    INPUT_EMAIL = '#userEmail'
+    INPUT_CURRENT_ADDRESS = '#currentAddress'
+    GENDER = '[for="gender-radio-1"]'
+    MOBILE = '#userNumber'
+    SUBJECT = '#subjectsInput'
+    HOBBIES = '[for="hobbies-checkbox-1"]'
+    PIC = '#uploadPicture'
+    BUTTON_SUBMIT = '#submit'
